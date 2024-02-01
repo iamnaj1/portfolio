@@ -19,6 +19,7 @@ import { createTheme, ThemeProvider, StyledEngineProvider } from '@mui/material/
 import { Grid } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import Skills from "./components/skills/skills-container.jsx";
+import Experience from "./components/experience/experience-container.jsx";
 
 const theme = createTheme({
   palette: {
@@ -61,7 +62,7 @@ function App() {
             <HeroSection />
             <Grid className={classes.Wrapper}>
               <Skills />
-              {/* <Experience /> */}
+              <Experience />
             </Grid>
             {/* <Projects openModal={openModal} setOpenModal={setOpenModal} />
             <Wrapper>
