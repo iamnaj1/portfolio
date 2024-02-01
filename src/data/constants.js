@@ -251,7 +251,7 @@ export const experiences = [
     ]
   },
 ];
-export const education = [
+export const educations = [
   {
     id: 0,
     img: "https://www.uno-r.edu.ph/wp-content/uploads/2018/10/UNORLOGOPRES_SEAL-1-500x360.png",

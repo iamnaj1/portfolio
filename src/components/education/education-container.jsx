@@ -6,7 +6,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import { education } from '../../data/constants';
+import { educations } from '../../data/constants';
 import { makeStyles, useTheme } from '@mui/styles';
 import { Box, Grid } from '@mui/material';
 import EducationCard from './education-card';
@@ -85,14 +85,14 @@ const Education = () => {
                 </Box>
                 <Grid container className={classes.TimelineSection}>
                     <Timeline>
-                        {education.map((education,index) => (
+                        {educations.map((education,index) => (
                             <TimelineItem key={index}>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <EducationCard education={education}/>
                                 </TimelineContent>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== education.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    {index !== educations.length - 1  && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}
