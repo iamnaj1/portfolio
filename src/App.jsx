@@ -19,6 +19,7 @@ import { makeStyles } from "@mui/styles";
 import Skills from "./components/skills/skills-container.jsx";
 import Experience from "./components/experience/experience-container.jsx";
 import Education from "./components/education/education-container.jsx";
+import Footer from "./components/footer/footer-container.jsx";
 
 const theme = createTheme({
   palette: {
@@ -68,8 +69,8 @@ function App() {
               <Education />
               {/* <Contact /> */}
             </Grid>
-           {/*  <Footer />
-            {openModal.state &&
+           <Footer />
+           {/*   {openModal.state &&
               <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
             } */}
           </Grid>
