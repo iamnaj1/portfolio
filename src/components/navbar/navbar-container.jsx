@@ -221,7 +221,7 @@ const Navbar = () => {
     <Grid className={classes.NavContainer}>
       <Grid className={classes.NavWrapper}>
         <Link to='/' className={classes.NavLogo}>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <span className={classes.Span}>Portfolio</span>
           </a>
         </Link>

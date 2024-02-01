@@ -18,6 +18,7 @@ import HeroSection from "./components/hero-section/hero-section-container.jsx";
 import { createTheme, ThemeProvider, StyledEngineProvider } from '@mui/material/styles';
 import { Grid } from "@mui/material";
 import { makeStyles } from "@mui/styles";
+import Skills from "./components/skills/skills-container.jsx";
 
 const theme = createTheme({
   palette: {
@@ -59,7 +60,7 @@ function App() {
           <Grid className={classes.Body}>
             <HeroSection />
             <Grid className={classes.Wrapper}>
-              {/* <Skills /> */}
+              <Skills />
               {/* <Experience /> */}
             </Grid>
             {/* <Projects openModal={openModal} setOpenModal={setOpenModal} />
