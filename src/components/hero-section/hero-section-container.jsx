@@ -208,7 +208,7 @@ const HeroSection = () => {
                             </Box>
                         </Box>
                         <Box className={classes.SubTitle}>{Bio.description}</Box>
-                        <Box className={classes.ResumeButton} href={Bio.resume} target='display'>Check Resume</Box>
+                        <a className={classes.ResumeButton} href={Bio.resume} target='display'>Check Resume</a>
                     </Grid>
 
                     <Grid id="Right" className={classes.HeroRightContainer}>
