@@ -10,16 +10,15 @@ import { BrowserRouter as Router } from 'react-router-dom';
 // import Contact from "./components/Contact";
 // import Footer from "./components/Footer";
 // import Experience from "./components/Experience";
-// import Education from "./components/Education";
 // import ProjectDetails from "./components/ProjectDetails";
 import './App.css';
-import styled from "styled-components";
 import HeroSection from "./components/hero-section/hero-section-container.jsx";
 import { createTheme, ThemeProvider, StyledEngineProvider } from '@mui/material/styles';
 import { Grid } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import Skills from "./components/skills/skills-container.jsx";
 import Experience from "./components/experience/experience-container.jsx";
+import Education from "./components/education/education-container.jsx";
 
 const theme = createTheme({
   palette: {
@@ -64,12 +63,12 @@ function App() {
               <Skills />
               <Experience />
             </Grid>
-            {/* <Projects openModal={openModal} setOpenModal={setOpenModal} />
-            <Wrapper>
+           {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
+             <Grid className={classes.Wrapper}>
               <Education />
-              <Contact />
-            </Wrapper>
-            <Footer />
+              {/* <Contact /> */}
+            </Grid>
+           {/*  <Footer />
             {openModal.state &&
               <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
             } */}

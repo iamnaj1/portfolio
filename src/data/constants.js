@@ -1,3 +1,6 @@
+
+import olla from "../images/olla.png"
+import bago from "../images/bago.jpeg"
 export const Bio = {
   name: "Jan Cielo Gayares",
   roles: [
@@ -25,16 +28,6 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
-      // {
-      //   name: "Redux",
-      //   image:
-      //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      // },
-      // {
-      //   name: "Next Js",
-      //   image:
-      //     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      // },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -82,20 +75,11 @@ export const skills = [
         name: "Graph Ql",
         image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
       },
-      // {
-      //   name: "Python",
-      //   image:
-      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      // },
       {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-      // {
-      //   name: "Postgresql",
-      //   image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      // },
       {
         name: "MongoDB",
         image:
@@ -107,31 +91,6 @@ export const skills = [
       },
     ],
   },
-  // {
-  //   title: "Android",
-  //   skills: [
-  //     {
-  //       name: "Java",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-  //     },
-  //     {
-  //       name: "Kotlin",
-  //       image:
-  //         "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-  //     },
-  //     {
-  //       name: "XML",
-  //       image:
-  //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-  //     },
-  //     {
-  //       name: "Android Studio",
-  //       image:
-  //         "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-  //     },
-  //   ],
-  // },
   {
     title: "Others",
     skills: [
@@ -187,7 +146,6 @@ export const experiences = [
       "HTML",
       "CSS",
     ],
-    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
     id: 1,
@@ -293,34 +251,29 @@ export const experiences = [
     ]
   },
 ];
-
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "https://www.uno-r.edu.ph/wp-content/uploads/2018/10/UNORLOGOPRES_SEAL-1-500x360.png",
+    school: "University of Negros Occidental-Recoletos",
+    date: "June 2010 - April 2015",
+    grade: "average",
+    desc: "I have completed Bachelor's Degree of Information Technoogy at UNO-R, Neg. Occ., PH. I have taken general courses (Data Structures, Object-Oriented Programming, Web Development, Database Management System, Operating System, CISCO and many others). Also taken my OJT on a game development local company.",
+    degree: "Bachelor of Science in Information Technology",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    img: olla, 
+    school: "OLLA ",
+    date: "June 2006 - Mar 2010",
+    grade: "average"
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    img: bago,
+    school: "Bago City Elementary School",
+    date: "June 2000 - Mar 2005",
+    grade: 'average'
   },
 ];
 
