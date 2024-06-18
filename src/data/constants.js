@@ -133,7 +133,7 @@ export const experiences = [
     id: 0,
     img: "https://media.licdn.com/dms/image/C4E0BAQGQeqspSGjNoA/company-logo_200_200/0/1646028295348?e=1714003200&v=beta&t=uIs9yTNOZlYP_DIPbNW6LlVthSn29RmKfOGDPaC81p0",
     role: "React Developer",
-    company: "Candor Medical",
+    company: "Frontend Developer",
     date: "Oct 2022 - Present",
     desc: "Developed frontend features using ReactJs, MaterialUI & other third party libraries & Firebase as backend. Also responsible for fixing bugs & features optimization.",
     skills: [
